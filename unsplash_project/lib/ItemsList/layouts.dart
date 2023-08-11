@@ -12,9 +12,9 @@ Widget Layouts() {
               crossAxisCount: 4,
               pattern: const [
                 QuiltedGridTile(2, 2),
-                QuiltedGridTile(1, 1),
-                QuiltedGridTile(1, 1),
-                QuiltedGridTile(2, 2),
+                QuiltedGridTile(1, 2),
+                QuiltedGridTile(1, 2),
+                QuiltedGridTile(1, 2),
               ]),
           childrenDelegate: SliverChildBuilderDelegate((context, index) {
             return Padding(
